@@ -57,3 +57,7 @@ let phoneNumber = "+91636353553434"
 // let isEmailAddressVerified = false
 
 let isEmailAddressVerified = true
+
+
+
+//  -------- ---String  -------
