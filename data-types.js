@@ -61,3 +61,19 @@ let isEmailAddressVerified = true
 
 
 //  -------- ---String  -------
+
+// how string declared and strored 
+
+// 3 type 
+
+let firstName = "harsh ${}"
+let lastName = "mangalam"
+let email = 'harsh@gmail.com'
+
+
+let fullName = `My fullname is ${firstName} ${lastName}. `
+
+
+console.log(fullName)
+
+// let sum = 3 + "3"  //== => 33
