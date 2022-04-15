@@ -44,9 +44,9 @@ let b = 30;
 
 // add two number
 
-console.log(a + b);
+// console.log(a + b);
 
-console.log(a / b);
+// console.log(a / b);
 
 let largeNumber = 646545455454545545454n
 
@@ -74,6 +74,59 @@ let email = 'harsh@gmail.com'
 let fullName = `My fullname is ${firstName} ${lastName}. `
 
 
-console.log(fullName)
+// console.log(fullName)
 
 // let sum = 3 + "3"  //== => 33
+
+
+
+
+// Boolean 
+
+
+// true or false
+
+
+let isLoggedin = false
+
+// console.log(isLoggedin)
+
+
+let emailVerified = true
+
+// console.log(emailVerified)
+
+
+// console.log(typeof isLoggedin)
+
+
+let number = ""
+
+
+
+// let number2 = Number(number)
+
+let number2 = Boolean(number)
+
+
+// console.log(number2) //false
+
+// console.log(`Data type of number2 is ${typeof number2}`)
+
+
+
+
+// Null data type 
+
+
+// Undefined 
+
+
+let name = null
+
+let age
+
+console.log(name)
+console.log(age)
+
+
