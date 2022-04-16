@@ -48,85 +48,79 @@ let b = 30;
 
 // console.log(a / b);
 
-let largeNumber = 646545455454545545454n
+let largeNumber = 646545455454545545454n;
 
-
-let phoneNumber = "+91636353553434"
-
+let phoneNumber = "+91636353553434";
 
 // let isEmailAddressVerified = false
 
-let isEmailAddressVerified = true
-
-
+let isEmailAddressVerified = true;
 
 //  -------- ---String  -------
 
-// how string declared and strored 
+// how string declared and strored
 
-// 3 type 
+// 3 type
 
-let firstName = "harsh ${}"
-let lastName = "mangalam"
-let email = 'harsh@gmail.com'
+let firstName = "harsh ${}";
+let lastName = "mangalam";
+let email = "harsh@gmail.com";
 
-
-let fullName = `My fullname is ${firstName} ${lastName}. `
-
+let fullName = `My fullname is ${firstName} ${lastName}. `;
 
 // console.log(fullName)
 
 // let sum = 3 + "3"  //== => 33
 
-
-
-
-// Boolean 
-
+// Boolean
 
 // true or false
 
-
-let isLoggedin = false
+let isLoggedin = false;
 
 // console.log(isLoggedin)
 
-
-let emailVerified = true
+let emailVerified = true;
 
 // console.log(emailVerified)
 
-
 // console.log(typeof isLoggedin)
 
-
-let number = ""
-
-
+let number = "";
 
 // let number2 = Number(number)
 
-let number2 = Boolean(number)
-
+let number2 = Boolean(number);
 
 // console.log(number2) //false
 
 // console.log(`Data type of number2 is ${typeof number2}`)
 
+// Null data type
+
+// Undefined
+
+let name = null;
+
+let age;
+
+// console.log(name)
+// console.log(age)
+
+// Object
+
+let user = {
+  firstName: "harsh",
+  lastName: "mangalam",
+
+  age: 18,
+
+  isEmailVerified: false,
+};
 
 
+// console.log(typeof user)
 
-// Null data type 
+// console.log(user.firstName)
 
-
-// Undefined 
-
-
-let name = null
-
-let age
-
-console.log(name)
-console.log(age)
-
-
+// console.log(user["lastName"])
