@@ -50,7 +50,7 @@
 
 // user
 
-const password = getting from browser
+// const password = getting from browser
 
 const user = getUser()
 
