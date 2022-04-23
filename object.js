@@ -79,11 +79,86 @@
 
 // console.log(b);
 
+// const user = {name:""}
+// const admin = {name:""}
 
-const user = {name:""}
-const admin = {name:""}
+// console.log(user === admin)
+
+// contructor
+
+// const obj2 = new Object()
+
+// console.log(obj2)
+
+// constructor   not recommended
+// const obj2 = new Object()
+
+// console.log(obj2)
+
+// // literal  recommended
+
+// const obj3 = {}
+
+// console.log(obj3)
+// // literal
+
+// const obj3 = {}
+
+// console.log(obj3)
+
+// const user = {
+//   firstName: "harsh",
+//   "last name": "mangalam",
+// };
+
+// . []
+
+// console.log(user)
+
+// user.email = "harsh@gmail.com"
+
+// user["profile pic"] = "shhshshhhs.png"
+
+// console.log(user.firstName)
+// console.log(user["last name"])
+
+// console.log(user)
+
+// let firstName = "hjhshshhs"
+
+// const user = {
+//   firstName: "harsh",
+
+// };
+
+// console.log("lastName" in user);
+
+// console.log(user.lastName === undefined)
+
+// console.log("lastName" in user);  // true
+
+// console.log(user.lastName === undefined);  // true   // false
+
+const admin = {
+  firstName: "harsh",
+  lastName: "mangalam",
+
+  fullName: function () {
+    return this.firstName + this.lastName;
+  },
+};
+
+// function fullName(firstName, lastName) {
+//   return user.firstName + " " + user.lastName;
+// }
+
+// console.log(fullName);
+
+// console.log(fullName(user.firstName, user.lastName));
 
 
-console.log(user === admin)
+
+console.log(admin.fullName())
 
 
+// this ------> object name
