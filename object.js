@@ -144,7 +144,7 @@ const admin = {
   lastName: "mangalam",
 
   fullName: function () {
-    return this.firstName + this.lastName;
+    return admin.firstName + admin.lastName;
   },
 };
 
