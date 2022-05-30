@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/l10006blr/class/javascript-classes\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/home/l10006blr/class/javascript-classes\".\n    at readProjectManifest (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:19655:13)\n    at async Object.readProjectManifestOnly (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:19659:28)\n    at async readProjectManifestOnly (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:43649:24)\n    at async Object.handler (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:170931:24)\n    at async /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175391:21\n    at async run (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175365:34)\n    at async runPnpm (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175583:5)\n    at async /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:175575:7"
+    }
+  }
+}
