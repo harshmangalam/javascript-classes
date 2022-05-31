@@ -83,4 +83,4 @@ function returnValue(seconds) {
 
 returnValue(4000)
   .then((msg) => console.log(msg))
-  .catch((msg) => console.log(msg));
+  .catch((err) => console.log(err));
